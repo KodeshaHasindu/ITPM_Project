@@ -1,0 +1,195 @@
+.main-content1 {
+  width: 100%;
+  height: 100%;
+  min-height: 470px;
+  margin: auto;
+  padding: 30px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    .post {
+      width: 900px;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 40px;
+      margin-left: 200px;
+
+      .imageSection {
+
+        .title1 {
+          font-family: BebasNeueRegular, arial, Georgia, serif;
+          font-size: 1.7em;
+          font-weight: bold;
+          padding-bottom: 10px;
+          text-transform: uppercase;
+        }
+
+        .postTime {
+          display: flex;
+          font-size: 12px;
+          flex-direction: row;
+          color: rgb(70, 70, 70);
+          padding-bottom: 5px;
+
+          .access {
+            font-size: 12px;
+            padding-right: 3px;
+          }
+        }
+
+        .media {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .section1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        .moviedetails {
+          display: flex;
+          flex-direction: row;
+          background-color: white;
+          text-align: center;
+
+          .tags1 {
+            font-size: 16px;
+            text-decoration: none;
+            color: rgb(136, 136, 136);
+
+            label {
+              color: black;
+              font-weight: bold;
+              font-size: 16px;
+            }
+          }
+
+          .duration {
+            label {
+              color: black;
+              font-weight: bold;
+              font-size: 16px;
+               padding-right: 5px;
+            }
+
+          }
+
+          .email{
+            margin-left: auto;
+            label {
+              color: black;
+              font-weight: bold;
+              font-size: 16px;
+              padding-right: 5px;
+            }
+          }
+          .actors {
+            label {
+              color: black;
+              font-weight: bold;
+              font-size: 16px;
+            }
+          }
+        }
+
+        .desc1 {
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 18px;
+          text-align: center;
+          padding: 10px 0px;
+        }
+
+        .download {
+          font-size: 25px;
+          color: white;
+          background-color: rgb(255, 0, 0);
+          width: 200px;
+          padding: 10px 5px;
+          margin: auto;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+
+
+  }
+
+ 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+  .main-content1 {
+    width: 96%;
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      margin: 0rem;
+
+      .post {
+        width: 86%;
+        margin: auto;
+
+        .imageSection {
+
+          .title1 {
+            font-size: 1.2em;
+          }
+        }
+
+        .section1 {
+          display: flex;
+          flex-direction: column;
+          margin-top: 10px;
+          font-size: 0.9em;
+
+          .moviedetails {
+            .tags1 {
+              font-size: 0.9em;
+            }
+          }
+
+          .desc1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+            text-align: center;
+            padding: 10px 0px;
+          }
+
+          .download {
+            font-size: 1.5em;
+            background-color: black;
+
+            &:hover {
+              background-color: red;
+            }
+          }
+        }
+      }
+    }
+
+    .adsContent {
+      width: 77%;
+      height: 100%;
+      background-color: white;
+      margin-top: 5%;
+      margin-left: 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}

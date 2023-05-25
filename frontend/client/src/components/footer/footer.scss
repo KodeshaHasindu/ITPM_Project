@@ -1,0 +1,62 @@
+.footer-them {
+    bottom: 0;
+    width: 100%;
+
+    .footer-top {
+        position: relative;
+        color: #ddd;
+        background: rgb(31, 31, 31);
+        padding: 0.8rem 0;
+        border-top: 0.5rem solid rgb(128, 0, 255);
+        border-top-color: rgb(128, 0, 255);
+        margin-top: 1%;
+        border-radius: 20px 20px 0px 0px;
+        box-shadow: 0 -8px 0 rgba(0, 0, 0, .1);
+        bottom: 0;
+    }
+
+    .footer-bottom {
+        position: relative;
+        background: rgb(24, 24, 24);
+        ;
+        line-height: 35px;
+        border-top: 1px solid rgb(104, 104, 104);
+        color: #ccc;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 1em;
+
+        .right {
+            padding: 1%;
+            margin-left: 30%;
+        }
+
+        .left {
+            padding: 1%;
+            margin-left: 7%
+        }
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .footer-them {
+        width: 100%;
+
+        .footer-bottom {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            font-size: 0.9em;
+
+            .right {
+                margin-left: 7.5%;
+            }
+
+            .left {
+                margin-left: 5%;
+            }
+        }
+    }
+}

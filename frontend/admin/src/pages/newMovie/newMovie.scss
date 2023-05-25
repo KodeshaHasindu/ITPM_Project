@@ -1,0 +1,98 @@
+.newMovie {
+  flex: 4;
+  background-color: white;
+
+  .addMovieTitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .addMovieForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+
+    .fullnamelabel {
+      margin-left: 20px;
+    }
+
+    .fullname {
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+    }
+
+    .firstname {
+      margin-right: 80px;
+      min-width: 540px;
+    }
+
+    .lastname {
+      min-width: 540px;
+    }
+
+    .uploadItems {
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .addMovieItem {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      margin-top: 10px;
+
+      label {
+        color: black;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      .inputtext {
+        width: 100%;
+        max-width: 1160px;
+        min-width: 1160px;
+        height: 30px;
+        padding: 5px 15px;
+        background-color: white;
+        color: gray;
+        font-size: 16px;
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        border-style: double;
+        margin-top: 0px;
+      }
+
+      textarea {
+        width: 100%;
+        max-width: 1160px;
+        min-width: 1160px;
+        height: 50px;
+        color: black;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .addMovieButton {
+      height: 40px;
+      margin-top: 10px;
+      padding: 7px 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(0, 0, 189);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      align-self: center;
+      width: 100%;
+      max-width: 500px;
+      min-width: 500px;
+      margin-bottom: 20px;
+    }
+  }
+}
